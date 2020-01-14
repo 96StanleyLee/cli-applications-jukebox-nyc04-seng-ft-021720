@@ -65,6 +65,8 @@ def run
     play(user_song)
   elsif user_input == "exit"
     exit_jukebox
+  else 
+    "Please enter a valid command"
   end
 end 
 
