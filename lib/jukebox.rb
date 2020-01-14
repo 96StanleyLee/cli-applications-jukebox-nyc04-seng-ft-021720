@@ -54,6 +54,6 @@ end
 
 def run 
   puts "Please enter a command:"
-  
+  user_input = gets.chomp
 
 
